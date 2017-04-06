@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8' >
+    <title>Card Machine</title>
+</head>
+<body>
+<img src="card.png" style="float: right;">
+    <h2>Let's Make A Deal!</h2>
+<p>Select a card rank: <br>
+    <input type="radio" name="rank" value="1"> Ace
+    <input type="radio" name="rank" value="2"> Deuce
+    <input type="radio" name="rank" value="3"> Tray
+    <input type="radio" name="rank" value="4"> 4
+    <input type="radio" name="rank" value="5"> 5
+    <input type="radio" name="rank" value="6"> 6
+    <input type="radio" name="rank" value="7"> 7
+    <input type="radio" name="rank" value="8"> 8
+    <input type="radio" name="rank" value="9"> 9
+    <input type="radio" name="rank" value="10"> 10
+    <input type="radio" name="rank" value="11"> Jack
+    <input type="radio" name="rank" value="12"> Queen
+    <input type="radio" name="rank" value="13"> King</p> 
+<p>Select a card suit: <br>
+    <input type="radio" name="suit" value="0"> Clubs
+    <input type="radio" name="suit" value="1"> Hearts
+    <input type="radio" name="suit" value="2"> Spades
+    <input type="radio" name="suit" value="3"> Diamonds</p>
+    <button id="dealCard">Deal the Card</button>
+    <button id="randomCard">Deal a Random Card</button>
+    <button id="randomHand">Deal a Random Hand</button>
+    <button id="reset">Reset</button>
+<div id="div1"> 
+    <h3>Your card(s):</h3>
+</div>
+<div id="div2"></div>
+    <script src="cardMachine.js"></script>
+</body>
